@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    margin:10px 5px 10px 5px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: hidden;
+}
